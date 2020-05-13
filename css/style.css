@@ -1,0 +1,32 @@
+.navbar-custom {
+    background-color: #fff;
+    /* background-color: #671E75; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+ul, .myUL {
+    list-style-type: none;
+  }
+  
+  .myUL {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  
+  
+  .nested {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
